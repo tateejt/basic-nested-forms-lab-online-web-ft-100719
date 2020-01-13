@@ -3,6 +3,7 @@
   <ul>
     <%= f.fields_for :ingredients do |ingredients| %>
     <li>
-      name:
+      name: <%= ingredient.text_field :name %>
+      
     </li>
   </ul>
